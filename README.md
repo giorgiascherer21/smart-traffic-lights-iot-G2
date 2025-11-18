@@ -60,3 +60,17 @@ O Sensor Ultrassônico detecta proximidade, simulando:
 </div>
 
 ### <b>Link para vídeo demonstrativo da montagem:</b> <a href="https://drive.google.com/file/d/1ph_QVCsRp-EOoWXgtPg4NzsNVKU6HYV1/view?usp=sharing">Acesse o vídeo demonstrativo</a>
+
+# 🔧 Parte 2 - Configuração da Interface Online
+
+A interface foi montada em HTML, a partir de uma integração com o Ubidots. Foi criado um widget que perite mandar dados para o ESP32 em tempo real, alterando e comandando seu funcionamento.
+
+A interface ficou da seguinte forma:
+
+<div align="center">
+<p align="center">
+<img src="assets/painel.png"></a>
+</p>
+</div>
+
+### <b>Link para vídeo demonstrativo da interface:</b> <a href="https://drive.google.com/file/d/1HCNdRaGJMC6GUCOARWmvDuZMt0sjM88-/view?usp=sharing">Acesse o vídeo demonstrativo</a>
