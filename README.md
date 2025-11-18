@@ -39,7 +39,7 @@ O LDR detecta variação de luz, simulando:
 O Sensor Ultrassônico detecta proximidade, simulando:
 - A **aproximação de veículos**, o que faz com que os semáforos sejam forçados a intercalar o seu funcionamento.
 
-### Montagem Física:
+### ✔ Montagem Física:
 
 <div align="center">
 <p align="center">
@@ -61,6 +61,10 @@ O Sensor Ultrassônico detecta proximidade, simulando:
 
 ### <b>Link para vídeo demonstrativo da montagem:</b> <a href="https://drive.google.com/file/d/1ph_QVCsRp-EOoWXgtPg4NzsNVKU6HYV1/view?usp=sharing">Acesse o vídeo demonstrativo</a>
 
+### ✔ Código utilizado
+
+- Código-fonte: [smart_traffic_lights.ino](src/smart_traffic_lights.ino)
+
 # 🔧 Parte 2 - Configuração da Interface Online
 
 A interface foi montada em HTML, a partir de uma integração com o Ubidots. Foi criado um widget que perite mandar dados para o ESP32 em tempo real, alterando e comandando seu funcionamento.
@@ -74,3 +78,7 @@ A interface ficou da seguinte forma:
 </div>
 
 ### <b>Link para vídeo demonstrativo da interface:</b> <a href="https://drive.google.com/file/d/1HCNdRaGJMC6GUCOARWmvDuZMt0sjM88-/view?usp=sharing">Acesse o vídeo demonstrativo</a>
+
+### ✔ Código utilizado
+
+- Código-fonte: [widget_painel_ubidots.html](src/widget_painel_ubidots.html)
