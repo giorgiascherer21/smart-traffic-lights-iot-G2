@@ -24,14 +24,39 @@ Este repositório apresenta um projeto de "Semáforo Inteligente" capaz de:
 
 ### ✔ Componentes utilizados
 - 2x Semáforos montados com LEDs (Vermelho, Amarelo, Verde)
-- 1x Arduino (Uno ou similar)
+- 1x ESP32
 - 1x LDR (Sensor de luminosidade)
-- 1x Resistor de 10kΩ (divisor de tensão)
+- 1x Sensor Ultrassônico
+- 1x Resistor de 10kΩ
+- 6x Resistor de 100Ω
 - Jumpers e protoboard
 - Fonte USB
 
 ### ✔ Objetivo
-O LDR detecta variação de luz simulando:
-- **Carro passando** (sombra → baixa luminosidade)  
-- **Modo noturno** (ambiente escuro por longo período)
+O LDR detecta variação de luz, simulando:
+- **Modo noturno** (ambiente escuro por longo período), o que leva ao modo onde as luzes amarelas se mantém piscando, significando atenção.
 
+O Sensor Ultrassônico detecta proximidade, simulando:
+- A **aproximação de veículos**, o que faz com que os semáforos sejam forçados a intercalar o seu funcionamento.
+
+### Montagem Física:
+
+<div align="center">
+<p align="center">
+<img src="assets/montagem01.jpg"></a>
+</p>
+</div>
+
+<div align="center">
+<p align="center">
+<img src="assets/montagem02.jpg"></a>
+</p>
+</div>
+
+<div align="center">
+<p align="center">
+<img src="assets/montagem03.jpg"></a>
+</p>
+</div>
+
+### <b>Link para vídeo demonstrativo da montagem:</b> <a href="https://drive.google.com/file/d/1ph_QVCsRp-EOoWXgtPg4NzsNVKU6HYV1/view?usp=sharing">Acesse o vídeo demonstrativo</a>
